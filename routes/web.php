@@ -14,6 +14,7 @@ use Laravel\Fortify\Http\Controllers\RegisteredUserController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
 Route::get('register', [RegisteredUserController::class, 'create'])->middleware('protected.by.invite.codes')->name('register');
 Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
     Route::get('dashboard', function () {

@@ -1,4 +1,4 @@
-# Laravel 8 管理邀請碼
+# Laravel 9 管理邀請碼
 
 引入 mateusjunges 的 laravel-invite-codes 套件來擴增管理邀請碼，利用邀請碼連結可以僅供會員或其親朋好友進入限定頁面。
 
@@ -30,8 +30,8 @@ $ npm install && npm run dev
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/mHOcvzR.png)
+![](https://i.imgur.com/1dwNMrr.png)
 > 沒有邀請碼無法進入註冊頁
 
-![](https://i.imgur.com/4nBRD1X.png)
+![](https://i.imgur.com/PTTvU2y.png)
 > 複製邀請碼的註冊連結，在瀏覽器中重新開啟連結則可進入註冊頁
