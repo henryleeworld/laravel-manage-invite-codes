@@ -19,7 +19,7 @@ class UserSeeder extends Seeder
                 'id'             => 1,
                 'name'           => '李亨利',
                 'email'          => 'admin@admin.com',
-                'password'       => '$2y$10$TASeU4vTSNoHgIAvjIzVfu4k3cGDOFoVqcSUK1uLJSpLRGnctek8W',
+                'password'       => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
                 'remember_token' => null,
             ],
         ];
