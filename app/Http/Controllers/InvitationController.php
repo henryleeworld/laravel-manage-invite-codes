@@ -9,7 +9,7 @@ use Junges\InviteCodes\Facades\InviteCodes;
 class InvitationController extends Controller
 {
     /**
-     * Display the user's profile form.
+     * Show the form for editing the specified resource.
      */
     public function edit(Request $request): View
     {

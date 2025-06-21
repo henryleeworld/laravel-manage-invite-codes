@@ -8,15 +8,13 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
-     *
-     * @return void
      */
-    public function up()
+    public function up(): void
     {
         $table_name = config('invite-codes.tables.invites_table', 'invites');
 
         Schema::create($table_name, static function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->id();
             $table->string('code')->unique();
             $table->integer('max_usages')->nullable();
             $table->string('to')->nullable();
@@ -29,10 +27,8 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
-     *
-     * @return void
      */
-    public function down()
+    public function down(): void
     {
         Schema::dropIfExists(config('invite-codes.tables.invites_table', 'invites'));
     }

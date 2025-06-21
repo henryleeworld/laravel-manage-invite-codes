@@ -12,7 +12,7 @@ return [
     |
     */
     'models' => [
-        'invite_model' => \Junges\InviteCodes\Http\Models\Invite::class,
+        'invite_model' => \Junges\InviteCodes\Models\Invite::class,
     ],
 
     /*
@@ -51,5 +51,5 @@ return [
     |--------------------------------------------------------------------------
     | If you want to publish this package migrations and edit with new custom columns, change it to true.
     */
-    'custom_migrations' => false,
+    'custom_migrations' => true,
 ];
