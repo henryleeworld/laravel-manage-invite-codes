@@ -40,6 +40,7 @@
                         <x-dropdown-link :href="route('invitation.edit')">
                             {{ __('Invitation') }}
                         </x-dropdown-link>
+
                         <!-- Authentication -->
                         <form method="POST" action="{{ route('logout') }}">
                             @csrf
@@ -88,6 +89,7 @@
                 <x-responsive-nav-link :href="route('invitation.edit')">
                     {{ __('Invitation') }}
                 </x-responsive-nav-link>
+
                 <!-- Authentication -->
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
